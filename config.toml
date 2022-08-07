@@ -1,24 +1,17 @@
-# this allows to use resources.Get to get resources of the folder "assets"
-# see https://github.com/gohugoio/hugo/commit/dea71670c059ab4d5a42bd22503f18c087dd22d4
-#assetDir = "assets"
-
 theme = ["sam", "hugo-shortcode-gallery"]
 
 baseurl                  = "https://wedding.markfrancis.io"           # Your domain name
 languageCode             = "en-us"
 defaultContentLanguage   = "en"
 isMultilingual           = false
-#title                    = "Call me Sam"
 pygmentsStyle            = "monokai"                        # https://help.farbox.com/pygments.html
 pygmentsCodefences       = true
-# googleAnalytics        = ""                               # Tracking code, eg. "UA-111111111-1"
 
 [params]
     dateform             = "Mon Jan 02, 2006"
     dateformfull         = "Mon Jan 2 2006 15:04:05 EST"
-    favicon              = "sam.ico"
-    homepage             = "gallery"                           # What to call the home page link, link will not be rendered if empty
-    #footerText           = "Call me Sam, a theme for Hugo."
+    #favicon              = "sam.ico"
+    homepage             = ""                           # What to call the home page link, link will not be rendered if empty
 
 [[params.videoBackground.sources]]
     source  = "/sample_video.mp4"

@@ -25,8 +25,10 @@ VOLUME ${HUGO_SITE}
 
 EXPOSE 1313
 
-CMD hugo server \
-    --bind 0.0.0.0 \
-    --navigateToChanged \
-    --templateMetrics \
-    --buildDrafts
+CMD hugo --buildDrafts
+
+# CMD hugo server \
+#     --bind 0.0.0.0 \
+#     --navigateToChanged \
+#     --templateMetrics \
+#     --buildDrafts
