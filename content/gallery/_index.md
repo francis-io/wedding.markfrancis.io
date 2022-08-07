@@ -5,5 +5,5 @@ url: "/gallery"
 maxWidth: "800x"
 clickablePhotos: true
 ---
-Photos taken by [Claire Hurst](http://www.clairehirst.co.uk)
+Photos taken by [Claire Hirst](http://www.clairehirst.co.uk)
 
