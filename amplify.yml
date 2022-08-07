@@ -4,6 +4,7 @@ frontend:
     build:
       commands:
         - export $(cat .env | xargs)  # Load env vars
+        - npm i -g postcss postcss-cli autoprefixer  # https://github.com/mfg92/hugo-theme-sam#requirements
         - wget --quiet https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz
         - tar -xf hugo_extended_${HUGO_VERSION}_Linux-64bit.tar.gz hugo && mv hugo /usr/bin/hugo && hugo version
         - hugo --buildDrafts
